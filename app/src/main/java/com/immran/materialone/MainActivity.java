@@ -3,16 +3,15 @@ package com.immran.materialone;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
-import android.os.Bundle;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -37,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private boolean mUserSawDrawer = false;
 
 
-    TabLayout mTabLayout;
     CharSequence Titles[] = {"Home", "Events", "Home", "Events", "Home", "Events"};
     int Numboftabs = 6;
     ViewPager viewPager;
