@@ -1,4 +1,4 @@
-package com.immran.materialone;
+package com.immran.view;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,9 +18,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.immran.fragments.FirstFragment;
-import com.immran.fragments.SecondFragment;
-import com.immran.view.SlidingTabLayout;
+import com.immran.materialone.R;
+import com.immran.view.customviews.SlidingTabLayout;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {

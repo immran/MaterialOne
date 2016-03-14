@@ -1,4 +1,4 @@
-package com.immran.view;
+package com.immran.view.customviews;
 
 import android.R;
 import android.content.Context;

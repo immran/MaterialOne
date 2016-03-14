@@ -1,4 +1,4 @@
-package com.immran.fragments;
+package com.immran.view;
 
 
 import android.os.Bundle;
